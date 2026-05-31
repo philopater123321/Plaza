@@ -1,0 +1,182 @@
+[
+    {
+        "id": "cheese",
+        "name": "Cheese",
+        "category": "Toppings",
+        "sizes": {
+            "Small": 899,
+            "Large": 1295
+        }
+    },
+    {
+        "id": "extra-topping",
+        "name": "Extra Topping",
+        "category": "Toppings",
+        "sizes": {
+            "Small": 125,
+            "Large": 175
+        }
+    },
+    {
+        "id": "extra-cheese",
+        "name": "Extra Cheese",
+        "category": "Toppings",
+        "sizes":{
+            "Small": 150,
+            "Large": 250
+        }
+    },
+    {
+        "id": "house-special",
+        "name": "House Special",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1395,
+            "Large": 1995
+        }
+    },
+    {
+        "id": "vegetarian",
+        "name": "Vegetarian",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1395,
+            "Large": 1995
+        }
+    },
+    {
+        "id": "greek",
+        "name": "Greek",
+        "category":"Gourmet Pizza",
+        "sizes": {
+            "Small": 1250,
+            "Large": 1820
+        }
+    },
+    {
+        "id": "hawaiian",
+        "name": "Hawaiian",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1125,
+            "Large": 1645
+        }
+    },
+    {
+        "id": "chicken-florentine",
+        "name": "Chicken Florentine",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1395,
+            "Large": 1995
+        }
+    },
+    {
+        "id": "santorini",
+        "name": "Santorini",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1275,
+            "Large": 1820
+        }
+    },
+    {
+        "id": "meat-lovers",
+        "name": "Meat Lovers",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1395,
+            "Large": 1995
+        }
+    },
+    {
+        "id": "mediterranean",
+        "name": "Mediterranean",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1395,
+            "Large": 1995
+        }
+    },
+    {
+        "id": "federal-hell",
+        "name": "Federal Hell",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1275,
+            "Large": 1820
+        }
+    },
+    {
+        "id": "chicken-broccoli-alfredo",
+        "name": "Chicken Broccoli Alfredo",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1275,
+            "Large": 1820
+        }
+    },
+    {
+        "id": "buffalo-or-bbq-chicken",
+        "name": "Buffalo or BBQ chicken",
+        "category": "Gourmet Pizza",
+        "sizes": {
+            "Small": 1125,
+            "Large": 1645
+        }
+    },
+    {
+        "id": "italien",
+        "name": "Italien",
+        "category": "calzones",
+        "price": 1120
+    },
+    {
+        "id": "chicken",
+        "name": "Chicken",
+        "category": "calzones",
+        "price": 1020
+    },
+    {
+        "id": "meatball",
+        "name": "Meatball",
+        "category": "calzones",
+        "price": 1020
+    },
+    {
+        "id": "peperoni-sausage",
+        "name": "Peperoni &Sausage",
+        "category": "calzones",
+        "price": 1020
+    },
+    {
+        "id": "buffalo-chicken",
+        "name": "Buffalo Chicken",
+        "category": "calzones",
+        "price": 1020
+    },
+    {
+        "id": "create-a-calzone",
+        "name": "Create A Calzone (3 items)",
+        "category": "calzones",
+        "price": 1020
+    },
+    {
+        "id": "additional-item",
+        "name": "Additional Item",
+        "category": "calzones",
+        "price": 100
+    },
+    {
+        "id": "special",
+        "name": "Special",
+        "category": "spinachpies",
+        "price": 999
+    },
+    {
+        "id": "additional-item",
+        "name": "Additional Item",
+        "category": "spinachpies",
+        "price": 100
+    }
+]
