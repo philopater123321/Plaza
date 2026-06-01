@@ -36,12 +36,20 @@
         <br><br>
     </div>
     <h1 class="order-online">Order online now!</h1>
-    <div id="cart-section">
-        <h2>Your cart</h2>
-        <ul id="cart-item">
-        </ul>
-        <h3>Total: $<span id="cart-total">0.00</span></h3>
-        <button id="checkout-btn">Checkout now!</button>
+
+    <div id="cart-floating-btn" onclick="toggleCart()">
+        🛒 Cart (<span id='cart-badge-count'>0</span>)
+    </div>
+
+    <div id="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h2 style="font-size: 50px; text-align: center;">Your Order</h2>
+            <button class="close-sidebar-btn" onclick="toggleCart()">X</button>
+        </div><ul id="cart-items"></ul>
+        <div class="cart-sidebar-footer">
+            <h3 style="font-size: 40px;">Total: $<span id='cart-total'>0.00</span></h3>
+            <button id="checkout-btn">Checkout now!</button>
+        </div>
     </div>
     <div id="menu-container">
     </div> 
