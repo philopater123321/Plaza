@@ -76,8 +76,105 @@ video{
     width: 1500px;
 }
 
+.order-online {
+    color: #e54b56;
+    font-size: 80px;
+    text-align: center;
+    transition: 0.3s ease;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+.order-online:hover{
+    transform: scale(1.005) translateY(-5px);
+}
 #cart-section{
-    border: 2px solid black;
-    padding: 10px;
+    border: 2px solid #222;
+    padding: 20px;
     margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto 40px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.1);
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.category-heading {
+    text-align: center;
+    color: #e54b56;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #d32f2f;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.category-wrapper {
+    text-align: center;
+}
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-item{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaeaea;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.menu-item h3{
+    margin-top: 0;
+    color: #222;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button:hover{
+    transform: scale(1.005) translateY(-3px);
+    background-color: #7b1111;
 }
