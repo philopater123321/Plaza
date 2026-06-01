@@ -439,5 +439,7 @@ footer {
     .map-col{
         order: 3;
     }
-
+    #cart-floating-btn{
+        font-size: 1.5rem;
+    }
 }
