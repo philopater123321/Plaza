@@ -82,5 +82,5 @@ document.getElementsById('checkout-btn').addEventListener('click' , () => {
     }
 
     
-}
+});
 
