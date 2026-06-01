@@ -53,7 +53,45 @@
     </div>
     <div id="menu-container">
     </div> 
+    <div id="checkout-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Complete Your Order: </h2>
+            <form id="checkout-form">
+                <label for="customer-name">Full Name:</label>
+                <input type="text" id="customer-name" required placeholder="Jacob Peter">
 
+                <label for="customer-address">Delivery Address: </label>
+                <textarea id="customer-address" required placeholder="123 Main St, Rehoboth" rows="3"></textarea>
+
+                <div class="modal-buttons">
+                    <button type="button" class="cancel-btn" onclick="closeCheckoutModal()">Cancel</button>
+                    <button type="submit" class="confirm-btn">Confirm Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="location-footer">
+        <div class="footer-heart">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#e54b56"/>
+            </svg>
+        </div>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>MAILING ADDRESS: </h3>
+                <p>289 Windthrop  St # 3,<br>Rehoboth, MA 02769</p>
+            </div>
+            <div class="footer-column map-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.7335687595304!2d-71.25191592341271!3d41.76941197125384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4438b4f177243%3A0x6bd6c66cf0bcbeae!2s289%20Winthrop%20St%20%233%2C%20Rehoboth%2C%20MA%2002769!5e0!3m2!1sen!2sus!4v1717280000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-column phone-col">
+                <h3>PHONE NUMBER: </h3>
+                <p>(508)-252-4307</p>
+            </div>
+        </div>
+
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

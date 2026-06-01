@@ -89,6 +89,7 @@ function updateCartUI() {
 
         const removeBtn = document.createElement('button');
         removeBtn.innerText = "X";
+        removeBtn.className = "remove-btn";
         removeBtn.onclick = () => {
             cart.splice(index, 1);
             updateCartUI();
@@ -108,11 +109,25 @@ document.getElementById('checkout-btn').addEventListener('click' , () => {
         alert('Your Cart is Empty!');
         return;
     }
+    document.getElementById('checkout-modal').style.display= 'flex';
+});
+
+function closeCheckoutModal() {
+    document.getElementById('checkout-modal').style.display= 'none';
+}
+
+document.getElementById('checkout-form').addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const customerName = document.getElementById('customer-name').value;
+    const customerAddress = document.getElementById('customer-address').value;
+
+
     let finalTotalCents = cart.reduce((sum, item) => sum +item.price, 0);
     alert(`🍕Order Confirmed! \n\n Your payment of $${(finalTotalCents/100).toFixed(2)} was successful !`)
     cart = [];
     updateCartUI();
-    
     toggleCart();
+    closeCheckoutModal();
+    event.target.reset();
 });
-

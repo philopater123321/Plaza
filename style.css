@@ -46,6 +46,11 @@ video{
 .video2 img{
     width: 900px;
 }
+
+video, img{
+    max-width: 100%;
+    height: auto;
+}
 .menu{
     display: grid;
     grid-template-rows: auto 1fr 1fr;
@@ -276,4 +281,163 @@ button:hover{
 }
 .remove-btn:hover{
     background-color: #333;
+}
+
+
+.modal-overlay{
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 3000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 650px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.modal-content h2{
+    color: #e54b56;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#checkout-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#checkout-form input, #checkout-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px  solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: inhreit;
+    font-size: 1.2rem;
+}
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel-btn {
+    background-color: #555;
+}
+.cancel-btn:hover{
+    background-color: #333;
+}
+.confirm-btn{
+    background-color: #28a745;
+}
+.confirm-btn:hover{
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.location-footer{
+    background-color: transparent;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer-heart{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-column{
+    flex: 1;
+    min-width: 280px;
+}
+
+.footer-column h3{
+    color: #e54b56;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-column p{
+    color: #e54b56;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.map-col{
+    flex: 2;
+    max-width: 750px;
+    min-width: 320px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    overflow: hidden;
+    background: white;
+    padding: 6px;
+}
+
+
+
+@media (max-width: 768px) {
+    .video2 {
+        flex-direction: column;
+    }
+
+    .menu h1, .order-online {
+        font-size: 50px;
+    }
+    #cart-sidebar{
+        width: 100%;
+        right: -100%;
+    }
+    .footer-columns{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .map-col{
+        order: 3;
+    }
+
 }
