@@ -128,58 +128,496 @@
     {
         "id": "italien",
         "name": "Italien",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 1120
     },
     {
         "id": "chicken",
         "name": "Chicken",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 1020
     },
     {
         "id": "meatball",
         "name": "Meatball",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 1020
     },
     {
         "id": "peperoni-sausage",
         "name": "Peperoni &Sausage",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 1020
     },
     {
         "id": "buffalo-chicken",
         "name": "Buffalo Chicken",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 1020
     },
     {
         "id": "create-a-calzone",
         "name": "Create A Calzone (3 items)",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 1020
     },
     {
         "id": "additional-item",
         "name": "Additional Item",
-        "category": "calzones",
+        "category": "Calzones",
         "price": 100
     },
     {
         "id": "special",
         "name": "Special",
-        "category": "spinachpies",
+        "category": "Spinachpies",
         "price": 999
     },
     {
         "id": "additional-item",
         "name": "Additional Item",
-        "category": "spinachpies",
+        "category": "Spinachpies",
         "price": 100
     },
     {
-        
+        "id": "roasted-red-pepper",
+        "name": "Roasted Red Pepper",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "meatless",
+        "name": "Meatless",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 899,
+            "Large": 1099
+        }
+    },
+    {
+        "id": "american",
+        "name": "American",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 899,
+            "Large": 1099
+        }
+    },
+    {
+        "id": "ham",
+        "name": "Ham",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 899,
+            "Large": 1099
+        }
+    },
+    {
+        "id": "italien",
+        "name": "Italien",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 899,
+            "Large": 1099
+        }
+    },
+    {
+        "id": "genos-salama",
+        "name": "Genos Salama",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "tuna",
+        "name": "Tuna",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "roasted-beef",
+        "name": "Roasted Beef",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "sliced-turkey",
+        "name": "Sliced Turkey",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "meatball-sausage",
+        "name": "Meatball & Sausage",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "chourico",
+        "name": "Chourico",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "sausage",
+        "name": "Sausage",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "eggplanet-parmesan",
+        "name": "Eggplanet Parmesan",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "veal-parmesan",
+        "name": "Veal Parmesan",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "cheese-burger",
+        "name": "Cheese Burger",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "buffalo-burger",
+        "name": "Buffalo Burger",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "blt",
+        "name": "BLT",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "pastrami",
+        "name": "Pastrami",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "chicken-parm",
+        "name": "Chicken Parm",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "chicken-cutlet",
+        "name": "Chicken Cutlet",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "grilled-chicken",
+        "name": "Grilled Chicken",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "buffalo-chicken",
+        "name": "Buffalo Chicken",
+        "category": "Grinders",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "gyro",
+        "name": "Gyro",
+        "category": "Grinders",
+        "price": 999
+    },
+    {
+        "id": "extra-meats",
+        "name": "Extra Meats",
+        "category": "Grinders",
+        "price": 150
+    },
+    {
+        "id": "extra-cheese",
+        "name": "Extra Cheese",
+        "category": "Grinders",
+        "price": 100
+    },
+    {
+        "id": "with-cheese",
+        "name": "With Cheese",
+        "category": "Steaks",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "with-peppers-and-onions",
+        "name": "With Peppers and Onions",
+        "category": "Steaks",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "special",
+        "name": "Special",
+        "category": "Steaks",
+        "sizes": {
+            "Small": 999,
+            "Large": 1199
+        }
+    },
+    {
+        "id": "extra-cheese",
+        "name": "Extra Cheese",
+        "category": "Steaks",
+        "price": 100
+    },
+    {
+        "id": "extra-steak",
+        "name": "Extra Steak",
+        "category": "Steaks",
+        "price": 150
+    },
+    {
+        "id": "tossed",
+        "name": "Tossed",
+        "category": "Salads",
+        "price": 895
+    },
+    {
+        "id": "caesar",
+        "name": "Caesar",
+        "category": "Salads",
+        "price": 895
+    },
+    {
+        "id": "greek",
+        "name": "Greek",
+        "category": "Salads",
+        "price": 995
+    },
+    {
+        "id": "antipasto",
+        "name": "Antipasto",
+        "category": "Salads",
+        "price": 1195
+    },
+    {
+        "id": "tuna",
+        "name": "Tuna",
+        "category": "Salads",
+        "price": 1195
+    },
+    {
+        "id": "add-grilled-chicken",
+        "name": "Add Grilled Chicken",
+        "category": "Salads",
+        "price": 250
+    },
+    {
+        "id": "add-chicken-salad",
+        "name": "Add Chicken Salad",
+        "category": "Salads",
+        "price": 250
+    },
+    {
+        "id": "wing-ding",
+        "name": "Wing Ding",
+        "category": "Dinners",
+        "price": 1495
+    },
+    {
+        "id": "chicken-fingers",
+        "name": "Chicken Fingers",
+        "category": "Dinners",
+        "price": 1495
+    },
+    {
+        "id": "grilled-chicken",
+        "name": "Grilled CHicken",
+        "category": "Dinners",
+        "price": 1495
+    },
+    {
+        "id": "cyro",
+        "name": "Cyro",
+        "category": "Dinners",
+        "price": 1495
+    },
+    {
+        "id": "chicken-stir-fly",
+        "name": "Chicken Stir Fly",
+        "category": "Dinners",
+        "price": 1595
+    },
+    {
+        "id": "steak-tip",
+        "name": "Steak Tip",
+        "category": "Dinners",
+        "price": 1795
+    },
+    {
+        "id": "meat-sauce",
+        "name": "Meat Sauce",
+        "category": "Pasta",
+        "price": 799
+    },
+    {
+        "id": "meat-balls",
+        "name": "Meat Balls",
+        "category": "Pasta",
+        "price": 999
+    },
+    {
+        "id": "sausage",
+        "name": "Sausage",
+        "category": "Pasta",
+        "price": 999
+    },
+    {
+        "id": "chourico",
+        "name": "Chourico",
+        "category": "Pasta",
+        "price": 999
+    },
+    {
+        "id": "veal-parmesan",
+        "name": "Veal Parmesan",
+        "category": "Pasta",
+        "price": 999
+    },
+    {
+        "id": "chicken-parmesan",
+        "name": "Chicken Parmesan",
+        "category": "Pasta",
+        "price": 999
+    },
+    {
+        "id": "eggplanet-parmesan",
+        "name": "Eggplanet Parmesan",
+        "category": "Pasta",
+        "price": 999
+    },
+    {
+        "id": "chicken-broccoli-alfredo",
+        "name": "Chicken Broccoli Alfredo",
+        "category": "Pasta",
+        "price": 1099
+    },
+    {
+        "id": "additional-item",
+        "name": "Additional Item",
+        "category": "Pasta",
+        "price": 150
+    },
+    {4
+        "id": "buffalo-wings",
+        "name": "Buffalo Wings",
+        "category": "Side Orders",
+        "price": 995
+    },
+    {
+        "id": "wing-dings",
+        "name": "Wing Dings (8PC)",
+        "category": "Side Orders",
+        "price": 995
+    },
+    {
+        "id": "mozzarella-sticks",
+        "name": "Mozzarella Sticks (6PC)",
+        "category": "Side Orders",
+        "price": 575
+    },
+    {
+        "id": "french-fries",
+        "name": "French Fries",
+        "category": "Side Orders",
+        "price": 495
+    },
+    {
+        "id": "onion-rings",
+        "name": "Onion Rings",
+        "category": "Side Orders",
+        "price": 525
+    },
+    {
+        "id": "chicken-fingers",
+        "name": "Chicken Fingers (5PC)",
+        "category": "Side Orders",
+        "price": 999
+    },
+    {
+        "id": "boneless-buffalo-chicken",
+        "name": "Boneless Buffalo Chicken",
+        "category": "Side Orders",
+        "price": 999
+    },
+    {
+        "id": "jalapeno-popperss",
+        "name": "Jalapeno Popperss",
+        "category": "Side Orders",
+        "price": 695
+    },
+    {
+        "id": "zucchini-stick",
+        "name": "Zucchini Stick",
+        "category": "Side Orders",
+        "price": 695
     }
 ]
