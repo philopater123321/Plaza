@@ -75,3 +75,9 @@ video{
     margin-top: 100px;
     width: 1500px;
 }
+
+#cart-section{
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
