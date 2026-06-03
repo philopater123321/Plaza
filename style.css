@@ -440,7 +440,7 @@ footer {
         order: 3;
     }
     #cart-floating-btn{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding: 10px 15px;
         bottom: 15px;
         right: 15px;
@@ -449,6 +449,7 @@ footer {
         height: auto;
     }
     .call-img{
+        width: 100%;
         height: auto;
     }
 }
