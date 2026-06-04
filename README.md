@@ -8,7 +8,7 @@ This home page consists of the name of the restaurant and the site location. And
 <img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/ad41dbe7-64b0-4df3-8b74-6558295f8e2f" />
 
 ## Menu section: 
-This part contains the Restaurant's menu with two images.
+This part contains the Restaurant's menu with two images .
 
 <img width="1900" height="861" alt="image" src="https://github.com/user-attachments/assets/4624f630-fcdb-417b-b746-7d4b4c807d27" />
 
