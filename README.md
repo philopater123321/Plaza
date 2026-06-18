@@ -38,3 +38,6 @@ Finally, the location of the restaurant: this part contains the location section
 Actually, my uncle has a restaurant in the US, and he wanted me to make him a website for his restaurant. He wanted to add an online ordering section, so I made it for him 
 and he was so proud of me, and I got many experience because I learned how to write JavaScript code.
 
+
+### Important Note:
+Gemini helped me in writing the JavaScript code because I don't have much experience in it, but I learned a lot from this project and I guess I won't use it in similar projects.
