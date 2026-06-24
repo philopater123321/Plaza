@@ -40,4 +40,4 @@ and he was so proud of me, and I got many experience because I learned how to wr
 
 
 ### Important Note:
-Gemini helped me in writing the JavaScript code because I don't have much experience in it, but I learned a lot from this project and I guess I won't use it in similar projects.
+Gemini helped me in writing the JavaScript code because I don't have much experience in it, but I learned a lot from this project and I guess I won't use it in similar projects. I didn't copy and paste the code from AI, I only used it as an assistant to help me while I am learning.
